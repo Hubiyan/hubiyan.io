@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #FCFCF6;
+    background-color: #393E46;
     font-family: 'Poppins';
     font-style: normal;
 
 }
 
-h1 {
+h1,p,h2,h3,h4 {
     margin: 0;
     padding: 0;
-    color: #000720;
+    color: #FCFCF6 ;
 }
 
 .mainmain  {
@@ -19,7 +19,7 @@ h1 {
 }
 
 .h-navbar {
-    background: #FCFCF6;
+    background: #393E46;
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +34,7 @@ h1 {
 .main-loho-h {
     font-family: 'Rampart One';
     font-size: 2.625rem;
-    color: #009B72;
+    color: #EDF67D;
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ h1 {
 
 .h-navbar a {
     text-decoration: none;
-    color: #009B72;
+    color: #EDF67D;
 }
 
 .blue-circle {
@@ -57,7 +57,7 @@ h1 {
     width: 22.375rem;
     height: 22.375rem;
     /* left: 4rem; */
-    background: #2042BB;
+    background: #5E7CE2;
     border-radius: 50%;
     z-index: -1;
     
@@ -98,19 +98,19 @@ h1 {
     height: 7px;
     border-radius: 100% !important;
     margin: 10px 20px ;
-    background: #F26430;
+    background: #0ACF83;
 
 }
 
 .circle-h-dots:nth-child(6), .circle-h-dots:nth-child(11), .circle-h-dots:nth-child(16) {
-    background-color: #009DDC;
+    background-color: #000720;
 
 }
 .line-cylinder {
     width: 1rem;
     height: .25rem;
     border-radius: 100px;
-    background: #F26430;
+    background: #0ACF83;
     margin-right: 10px;
 
 
@@ -122,7 +122,7 @@ h1 {
     width: 8rem;
     height: 4px;
     border-radius: 100px;
-    background: #F26430;
+    background: #0ACF83;
     align-self: flex-end;
     margin-bottom: -85px;
     
@@ -132,7 +132,7 @@ h1 {
     width: 180px;
     height: 4px;
     border-radius: 100px;
-    background: #F26430;
+    background: #0ACF83;
     margin-left: -50px;
 
 
@@ -184,9 +184,9 @@ h1 {
 
 .viewbtn {
     text-decoration: none !important;
-    border: 2px solid #009B72;
+    border: 2px solid #EDF67D;
     border-radius: 5px;
-    color: #009B72;
+    color: #EDF67D;
 }
 
 
@@ -256,13 +256,13 @@ h1 {
   }
   
   .outerrow::-webkit-scrollbar-thumb {
-    background: #f264305e;
+    background: #0ACF835e;
     border-radius: 100px;
     transition: .3s ease-in-out;
   }
 
   .outerrow::-webkit-scrollbar-thumb:hover {
-    background: #F26430;
+    background: #0ACF83;
     transition: .3s ease-in-out;
   }
 
@@ -281,7 +281,7 @@ h1 {
   }
   
 ::-webkit-scrollbar-thumb {
-    background: #F26430;
+    background: #0ACF83;
     border-radius: 100px;
   }
 
@@ -306,7 +306,7 @@ h1 {
 .skilltray {
     width: 80%;
     aspect-ratio: 1/1;
-    background: #FFFFFF;
+    background: #222831;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     display: flex;
@@ -335,18 +335,18 @@ h1 {
     font-weight: 500;
     font-size: 32px;
     line-height: 72px;
-    color: #009B72;
+    color: #EDF67D;
 
 
 }
 .interestincol p {
     font-weight: 400;
     font-size: 24px;
-    color: #009B72;
+    color: #EDF67D;
 }
 
 .interestincol p a {
-    color: #009B72;
+    color: #EDF67D;
     font-weight: 500;
 }
 .interestincol p a:hover {
@@ -355,28 +355,24 @@ h1 {
 }
 
 footer {
-    background:#F5FDC6 ;
+    background:#222831 ;
     padding: 20px ; 
-    height: 18rem;
+    height: 15rem;
 
 }
 
 footer h2 a {
     margin-bottom: 2rem;
-    color: #000720;
+    color: #FCFCF6;
     font-weight: 600;
     text-decoration:none;
 }
 footer p {
-    color: #000720;
+    color: #FCFCF6;
     font-weight: 500;
     text-decoration:none;
 }
 
-footer p a {
-    color: #000720;
-    font-weight: 600;
-}
 
 
 /* FAB ICON */
@@ -422,7 +418,7 @@ footer p a {
 
     width: fit-content;
     aspect-ratio: 1/1;
-    background: #009b72;
+    background: #EDF67D;
     border-radius: 1000px;
     text-align: center;
     color: #FCFCF6;
@@ -431,11 +427,12 @@ footer p a {
 .git-inner p {
     margin: 0;
     font-weight: 500;
+    color:#393E46 ;
 }
 
 .inner-fab {
     aspect-ratio: 1/1;
-    color: #009B72;
+    color: #EDF67D;
 }
 .inner-fab svg {
     border-radius: 1000px;
@@ -514,8 +511,8 @@ footer p a {
 }
 
 .darkbutn {
-    background-color: #000720;
-    color: #FCFCF6;
+    background-color:#FCFCF6;
+    color:#000720;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1rem;
@@ -585,7 +582,7 @@ footer p a {
         width: 5rem;
         height: 3px;
         border-radius: 100px;
-        background: #F26430;
+        background: #0ACF83;
     }
     
     .linediv {
@@ -895,7 +892,7 @@ footer p a {
         width: 6.5rem;
         height: 3px !important;
         border-radius: 100px;
-        background: #F26430;
+        background: #0ACF83;
     }
     
     .linediv {
