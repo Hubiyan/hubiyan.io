@@ -630,10 +630,42 @@ footer p a {
         margin-top: 1rem !important;
     }
 
+    /* FAB button */
+    .get-in-touch {
+        bottom: 8rem;
+        right: 2rem;
 
-    .fab-button-main {
-        display: none;
     }
+    .linki, .insta, .phone {
+        transition: ease-in-out;
+        transition-duration: 300ms;
+        position: relative;
+        bottom: 5.5rem;
+        margin-left: -1rem;    
+    }
+    .linki {
+        right: -8rem;
+    }
+    .phone {
+        right: -4rem;
+    }
+    .insta {
+        right: -6rem;
+    }
+    .fab-button-main:hover .innerfabflex .phone {
+        bottom: 6rem;
+    }
+    
+    .inner-fab:hover svg{
+        box-shadow: 0px 0px 10px #009edc7d;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .fab-button-main:hover .innerfabflex .insta, .fab-button-main:hover .innerfabflex .linki {
+        right: 10rem !important;
+    }
+
+
 
     .content-container-h {
         margin-top: 3rem !important;
