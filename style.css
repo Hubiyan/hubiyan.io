@@ -26,13 +26,14 @@ h1 {
     top: 0;
     left: 0;
     z-index: 10;
+    transition: all 0.6s;
 }
 
 
 .radio-btn {
-    width: 150px;
-    height: 80px;
-    padding: 10px;
+    width: 3.5rem;
+    height: 2rem;
+    padding:3px;
     background-color: #27173a;
     border-radius: 50px;
     overflow: hidden;
@@ -41,8 +42,8 @@ h1 {
   
   .radio-btn .radio-inner {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 1.6rem;
+    height: 100%;
     background-color: #ffc207;
     border-radius: 50%;
     transition: all 0.6s;
@@ -52,7 +53,7 @@ h1 {
     content: "";
     position: absolute;
     top: 0;
-    left: -60%;
+    left: -50%;
     width: 100%;
     height: 100%;
     background-color: #27173a;
@@ -62,12 +63,14 @@ h1 {
   }
   
   .radio-btn .radio-inner.active {
-    transform: translateX(calc(150px - 80px));
+    transform: translateX(1.55rem);
   }
   
 .radio-btn .radio-inner.active::before {
     left: -25px;
     transform: scale(1);
+    left: -45%;
+    top: -20%;
   }
 
 
@@ -546,6 +549,21 @@ footer p a {
     margin-top: 1rem;
     width: fit-content;
 }
+
+/* darkmode */
+
+body.dark {
+    background: #393E46;
+    color : #EEEEEE;
+  }
+  .h-navbar.dark {
+    background: #393E46;
+    transition: all 0.6s;
+  }
+  .line-cylinder-line2.dark {
+    background: #0ACF83;
+    transition: all 0.6s;
+  }
 
 @media only screen and (max-width: 768px) and (min-width: 0px) { 
     .main-loho-h {
