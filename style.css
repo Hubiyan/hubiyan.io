@@ -121,7 +121,9 @@ h1 {
     background: #2042BB;
     border-radius: 50%;
     z-index: -1;
-    
+}
+.blue-circle.dark {
+    background: #5E7CE2;
 }
 
 .dp-image {
