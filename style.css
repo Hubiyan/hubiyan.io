@@ -605,6 +605,11 @@ body.dark {
     transition: all 0.6s;
   }
 
+  .navbar-toggler {
+    border: none !important;
+    color: transparent !important;
+}
+
 @media only screen and (max-width: 768px) and (min-width: 0px) { 
     .main-loho-h {
         font-size: 2rem;
@@ -1075,6 +1080,8 @@ body.dark {
     .skilltray-inner {
         width: 100%;
     }
+
+
 
  }
 
