@@ -28,25 +28,35 @@ h1 {
     z-index: 10;
     transition: all 0.6s;
 }
-
-
+.h-navbar a.dark {
+    color: #EEEEEE;
+}
+.main-heading-h.dark {
+    color: #EEEEEE;
+}
 .radio-btn {
     width: 3.5rem;
     height: 2rem;
     padding:3px;
-    background-color: #27173a;
+    background-color: #393E46;
     border-radius: 50px;
     overflow: hidden;
     cursor: pointer;
+  }
+  .radio-btn.dark {
+    background-color: #EEEEEE;
   }
   
   .radio-btn .radio-inner {
     position: relative;
     width: 1.6rem;
     height: 100%;
-    background-color: #ffc207;
+    background-color: #EEEEEE;
     border-radius: 50%;
     transition: all 0.6s;
+  }
+  .radio-btn .radio-inner.dark {
+    background-color: #393E46;
   }
   
   .radio-btn .radio-inner::before {
@@ -56,14 +66,15 @@ h1 {
     left: -50%;
     width: 100%;
     height: 100%;
-    background-color: #27173a;
+    background-color: #393E46;
     border-radius: 50%;
     transform: scale(0);
-    transition: all 0.6s;
+    transition: all 0s;
   }
   
   .radio-btn .radio-inner.active {
     transform: translateX(1.55rem);
+    
   }
   
 .radio-btn .radio-inner.active::before {
@@ -71,6 +82,9 @@ h1 {
     transform: scale(1);
     left: -45%;
     top: -20%;
+    background-color: #EEEEEE ;
+    transition: all 0s;
+    
   }
 
 
@@ -148,10 +162,15 @@ h1 {
     background: #F26430;
 
 }
+.circle-h-dots.dark {
+    background-color: #009B72;
+}
 
 .circle-h-dots:nth-child(6), .circle-h-dots:nth-child(11), .circle-h-dots:nth-child(16) {
     background-color: #009DDC;
-
+}
+.circle-h-dots:nth-child(6).dark, .circle-h-dots:nth-child(11).dark , .circle-h-dots:nth-child(16).dark {
+    background-color: #000720;
 }
 .line-cylinder {
     width: 1rem;
@@ -159,8 +178,9 @@ h1 {
     border-radius: 100px;
     background: #F26430;
     margin-right: 10px;
-
-
+}
+.line-cylinder.dark {
+    background: #009B72;
 }
 .line-cylinder:nth-child(14),.line-cylinder:nth-child(13), .line-cylinder:nth-child(12), .line-cylinder:nth-child(11), .line-cylinder:nth-child(10), .line-cylinder:nth-child(15), .line-cylinder:nth-child(16), .line-cylinder:nth-child(17) {
     display: none !important;
@@ -172,8 +192,9 @@ h1 {
     background: #F26430;
     align-self: flex-end;
     margin-bottom: -85px;
-    
-
+}
+.line-cylinder-line.dark {
+    background-color: #009B72;
 }
 .line-cylinder-line2 {
     width: 180px;
@@ -181,8 +202,9 @@ h1 {
     border-radius: 100px;
     background: #F26430;
     margin-left: -50px;
-
-
+}
+.line-cylinder-line2.dark {
+    background-color: #009B72;
 }
 
 .linediv {
@@ -234,6 +256,10 @@ h1 {
     border: 2px solid #009B72;
     border-radius: 5px;
     color: #009B72;
+}
+.viewbtn.dark {
+    color: #EDF67D;
+    border: 2px solid #EDF67D;
 }
 
 
@@ -307,10 +333,15 @@ h1 {
     border-radius: 100px;
     transition: .3s ease-in-out;
   }
-
+  .outerrow::-webkit-scrollbar-thumb.dark {
+    background: #009b7236;
+  }
   .outerrow::-webkit-scrollbar-thumb:hover {
     background: #F26430;
     transition: .3s ease-in-out;
+  }
+  .outerrow::-webkit-scrollbar-thumb:hover.dark {
+    background: #009B72;
   }
 
   /* Main Scrollbar */
@@ -331,10 +362,10 @@ h1 {
     background: #F26430;
     border-radius: 100px;
   }
-
-::-webkit-scrollbar-thumb:hover {
-    background: #f17244;
+  ::-webkit-scrollbar-thumb.dark {
+    background: #009B72;
   }
+
 .sliderrow {
     display: flex;
     margin-top: 36px;
@@ -360,6 +391,9 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+.skilltray.dark {
+    background: #222831;
+}
 
 .skilltray-inner {
     display: flex;
@@ -383,8 +417,9 @@ h1 {
     font-size: 32px;
     line-height: 72px;
     color: #009B72;
-
-
+}
+.interestincol h1.dark, .interestincol p.dark, .interestincol p a.dark {
+    color: #EEEEEE;
 }
 .interestincol p {
     font-weight: 400;
@@ -405,7 +440,9 @@ footer {
     background:#F5FDC6 ;
     padding: 20px ; 
     height: 18rem;
-
+}
+footer.dark {
+    background: #222831;
 }
 
 footer h2 a {
@@ -413,6 +450,9 @@ footer h2 a {
     color: #000720;
     font-weight: 600;
     text-decoration:none;
+}
+footer h2 a.dark, footer p.dark,footer p a.dark {
+    color: #EEEEEE;
 }
 footer p {
     color: #000720;
@@ -556,11 +596,11 @@ body.dark {
     background: #393E46;
     color : #EEEEEE;
   }
-  .h-navbar.dark {
+.h-navbar.dark {
     background: #393E46;
     transition: all 0.6s;
   }
-  .line-cylinder-line2.dark {
+.line-cylinder-line2.dark {
     background: #0ACF83;
     transition: all 0.6s;
   }
@@ -908,7 +948,6 @@ body.dark {
         width: 6.5rem;
         height: 3px !important;
         border-radius: 100px;
-        background: #F26430;
     }
     .linediv {
         margin-left: -30px;
