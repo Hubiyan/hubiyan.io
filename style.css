@@ -74,7 +74,6 @@ h1 {
   
   .radio-btn .radio-inner.active {
     transform: translateX(1.55rem);
-    
   }
   
 .radio-btn .radio-inner.active::before {
@@ -583,14 +582,6 @@ footer p a {
     width: 18.75rem;
     aspect-ratio: auto;
 }
-.darkbutn {
-    background-color: #000720;
-    color: #FCFCF6;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1rem;
-    width: fit-content;
-}
 
 /* darkmode */
 
@@ -851,6 +842,18 @@ body.dark {
         font-size: .8rem;
         padding: 8px 16px !important;
     }
+
+    .radio-btn {
+        margin-bottom: .5rem;
+        height: 1.5rem;
+        width:2.5rem;
+    } 
+    .radio-inner {
+        width: 1.2rem !important;
+    }
+    .radio-btn .radio-inner.active {
+        transform: translateX(1rem);
+      }
  }
 
  @media only screen and (max-width: 768px) and (min-width: 476px)  {
