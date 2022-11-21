@@ -1,0 +1,24 @@
+.slidecomponent {
+    width: 30rem;
+    height: 30rem;
+}
+.first-cont {
+    margin-top: 4rem !important;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 0px) { 
+        .outerrow {
+            height: fit-content !important;
+            padding-bottom:14px ;
+            overflow-y: hidden;
+         }
+         .sliderrow {
+            margin-top: 0rem;
+         }
+    
+    .slidecomponent {
+        height: 20rem;
+        width: 20rem;
+        margin-left: .1rem !important;
+        border-radius: 10px; }
+}
