@@ -333,11 +333,11 @@ h1.dark {
 }
 
 .slidecomponent {
-    height: 552px;
-    width: 552px;
+    height: 20rem;
+    width: 20rem;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.08));
+    filter: drop-shadow(6px 0px 12px rgba(0, 0, 0, 0.268));
     cursor: grab;
 }
 
@@ -678,6 +678,41 @@ body.dark {
 
 .img-2{
     height: 400px;
+}
+.slidebtn {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+.modal-body .slidecomponent {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 8px;
+    box-shadow: 4px 8px 15px #22283156;
+}
+
+.modal-dialog {
+    max-width: fit-content;
+}
+.modal-body {
+    background: transparent;
+}
+.modal-header {
+    border: none;
+}
+.modal-content {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.btn-close {
+    background-color: #FCFCF6;
+    border-radius: 50% ;
+}
+.modal-header h5 {
+    margin: 0;
+    color: #FCFCF6;
 }
 
 
