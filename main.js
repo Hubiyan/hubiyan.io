@@ -5,7 +5,6 @@ function darkLight() {
   if (localStorage.toggled != 'dark') {
     $('*').toggleClass('dark', true);
     localStorage.toggled = "dark";
-     
   } else {
     $('*').toggleClass('dark', false);
     localStorage.toggled = "";
