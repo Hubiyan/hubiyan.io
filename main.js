@@ -1,6 +1,5 @@
 
 $('*').toggleClass(localStorage.toggled);
-
 function darkLight() {
   /*DARK CLASS*/
   if (localStorage.toggled != 'dark') {
@@ -12,7 +11,6 @@ function darkLight() {
     localStorage.toggled = "";
   }
 }
-
 /*Add 'checked' property to input if background == dark*/
 if ($('*').hasClass('dark')) {
    $( '#checkBox' ).prop( "checked", true )
