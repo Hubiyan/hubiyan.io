@@ -1,8 +1,22 @@
-$(document).ready(function () {
-  $(".radio-btn").click(function () {
-    $(".radio-inner").toggleClass("active");
-    $("*").toggleClass("dark");
-    localStorage.getItem('dark-mode', 'dark');
-  });
-});
+
+$('*').toggleClass(localStorage.toggled);
+
+function darkLight() {
+  /*DARK CLASS*/
+  if (localStorage.toggled != 'dark') {
+    $('*').toggleClass('dark', true);
+    localStorage.toggled = "dark";
+     
+  } else {
+    $('*').toggleClass('dark', false);
+    localStorage.toggled = "";
+  }
+}
+
+/*Add 'checked' property to input if background == dark*/
+if ($('*').hasClass('dark')) {
+   $( '#checkBox' ).prop( "checked", true )
+} else {
+  $( '#checkBox' ).prop( "checked", false )
+}
 

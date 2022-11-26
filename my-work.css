@@ -1,11 +1,17 @@
 .slidecomponent {
-    width: 30rem;
-    height: 30rem;
+    width: 22rem;
+    height: 22rem;
 }
 .first-cont {
     margin-top: 4rem !important;
 }
-
+.outerrow {
+   min-height: 25rem !important;
+   overflow-y: hidden;
+}
+.outerrow p {
+    margin-top: 20px;
+}
 @media only screen and (max-width: 768px) and (min-width: 0px) { 
         .outerrow {
             height: fit-content !important;

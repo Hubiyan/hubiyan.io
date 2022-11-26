@@ -22,17 +22,18 @@
     <div class="container-fluid p-0 mainmain">
         <!-- NAvbar -->
             <nav class="h-navbar">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row d-flex justify-content-between p-0 m-0">
                         <div class="col-lg-2 col-2 col-md-2">
                             <a href="index.html" class="main-loho-h">H.</a>
                         </div>
-                        <div class="link-col-h col-lg-5 col-7 col-md-8 d-flex justify-content-between p-4 pb-0">
+                        <div class="link-col-h col-lg-4 col-7 col-md-8 d-flex justify-content-between p-4 pb-0">
                             <a  href="about-hubiyan.html">About me</a>
                             <a href="my-works.html">My Works</a>
-                            <div class="radio-btn">
-                                <div class="radio-inner"></div>
-                            </div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="darkLight()" id="checkBox" >
+                                <span class="slider"></span>
+                              </label>
                         </div>
                     </div>
                 </div>
@@ -99,9 +100,9 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 ol-md-6 d-flex flex-column justify-content-between align-items-center p-5 pb-0 m-0 second-divax">
                     <h1 class="main-heading-h">I’m a UI / UX designer, who loves to create solutions for complex problems through user-centric design.</h1>
-                    <p>This portfolio was designed and developed by me ;)</p>
+                    <p>This portfolio was designed and developed by me &#128521</p>
                     <a href="about-hubiyan.html" class="download-div d-flex justify-content-center align-items-center">
-                        <i class="fa-regular fa-circle-down fa-1x fa-spin" style="--fa-animation-duration: 15s;"></i>
+                        <i class="fa-regular fa-circle-down fa-1x fa-spin" style="--fa-animation-duration: 10s;"></i>
                          <p class="ps-2 m-0">Download Resume</p>
                     </a> 
                 </div>
@@ -137,7 +138,7 @@
                 </div>
             </div>
             </div>
-            <div class="outerrow w-100 ps-5">
+            <div class="outerrow w-100">
                 <div class="sliderrow d-flex">
                     <!-- trigger -->
                     <div class="slidecomponent m-4 mt-0 ml-0">
@@ -248,102 +249,26 @@
             </div>
         <!-- Case Studies -->
             <div class="content-container-h p-0 ">
-            <div class="container-fluid px-5">
-                <div class="row w-100 headerdiv">
-                    <div class="col-12 w-100 d-flex justify-content-between align-items-center">
-                    <h4 class="content-heading ms-4">UX Case Studies</h4>
-                    <a href="my-works.html" class="viewbtn px-4 py-2">View All</a>
+                <div class="container-fluid px-5">
+                    <div class="row w-100 headerdiv">
+                        <div class="col-12 w-100 d-flex justify-content-between align-items-center">
+                        <h4 class="content-heading ms-4">UX Case Studies</h4>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="outerrow w-100 ps-5">
-                <div class="sliderrow d-flex">
-                    <!-- trigger -->
-                    <div class="slidecomponent m-4 mt-0 ml-0">
-                        <button class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="myimages" src="images/app2.png" alt="image of application design"></button>
-                    </div>
-                      <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header px-5">
-                                    <h5>Smart home devices management App</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="slidecomponent m-4 mt-0 ml-0">
-                                        <img class="myimages" src="images/app2.png" alt="image of application design">
-                                    </div>
-                                </div>
+                <div class="outerrow w-100 ">
+                    <div class="sliderrow d-flex">
+                           <!-- trigger -->
+                             <div class="slidecomponent-b m-4 mt-0 ml-0">
+                            <a href="" class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img class="myimages" src="images/app3.png" alt="image of application design"></a>
                             </div>
-                        </div>
-                    </div>
-
-                     <!-- trigger -->
-                    <div class="slidecomponent m-4 mt-0 ml-0">
-                        <button class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img class="myimages" src="images/app1.jpg" alt="image of application design"></button>
-                    </div>
-                     <!-- Modal -->
-                    <div class="modal modal1 fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header px-5">
-                                    <h5>Smart home devices management App</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="slidecomponent m-4 mt-0 ml-0">
-                                        <img class="myimages" src="images/app1.jpg" alt="image of application design">
-                                    </div>
-                                </div>
+                           <!-- trigger -->
+                             <div class="slidecomponent-b m-4 mt-0 ml-0">
+                            <a href="" class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img class="myimages" src="images/app3.png" alt="image of application design"></a>
                             </div>
-                        </div>
                     </div>
-
-                     <!-- trigger -->
-                    <div class="slidecomponent m-4 mt-0 ml-0">
-                        <button class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img class="myimages" src="images/app3.png" alt="image of application design"></button>
-                    </div>
-                     <!-- Modal -->
-                    <div class="modal modal1 fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header px-5">
-                                    <h5>Smart home devices management App</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="slidecomponent m-4 mt-0 ml-0">
-                                        <img class="myimages" src="images/app3.png" alt="image of application design">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                     <!-- trigger -->
-                    <div class="slidecomponent m-4 mt-0 ml-0">
-                        <button class="slidebtn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img class="myimages" src="images/app3.png" alt="image of application design"></button>
-                    </div>
-                     <!-- Modal -->
-                    <div class="modal modal1 fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header px-5">
-                                    <h5>Smart home devices management App</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="slidecomponent m-4 mt-0 ml-0">
-                                        <img class="myimages" src="images/app3.png" alt="image of application design">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            </div>
+            
             </div>
          <!-- My skills Section -->
             <div class="content-container-h secondd-row mb-5">
@@ -470,7 +395,6 @@
                     </div>
                 </div>
             </div>
-  
 
         <!-- Footer -->
         <footer class="d-flex justify-content-center align-items-center">
