@@ -17,3 +17,17 @@ if ($('*').hasClass('dark')) {
   $( '#checkBox' ).prop( "checked", false )
 }
 
+//Top Content Tabs and Description
+$(".tab-list li").on("click", function() {
+  var tabId = ".tab-list li#" + $(this).attr("id");
+  var tabDivId = ".tabs-content#content-" + $(this).attr("id");
+
+  if (!$(this).hasClass("active")) {
+    $(".tab-list li").removeClass("active");
+    $(this).addClass("active");
+
+    $(".tabs-content").removeClass("active");
+    $(tabDivId).addClass("active");
+  }
+});
+
