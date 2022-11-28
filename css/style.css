@@ -1142,7 +1142,41 @@ body.dark {
     .skilltray-inner {
         width: 100%;
     }
-    
+    .get-in-touch {
+        bottom: 2%;
+        right: 5%;
+    }
+
+    .linki, .insta, .phone {
+        transition: ease-in-out;
+        transition-duration: 300ms;
+        position: relative;
+        bottom: -1.5rem;
+        margin-left: -1rem;    
+    }
+    .linki {
+        right: -8.5rem;
+    }
+    .phone {
+        right: -4rem;
+    }
+    .insta {
+        right: -6.5rem;
+    }
+    .fab-button-main:hover .innerfabflex .phone {
+        bottom: 4rem;
+    }
+    .inner-fab:hover svg{
+        box-shadow: 0px 0px 10px #009edc7d;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .fab-button-main:hover .innerfabflex .insta {
+        right: -.5rem;
+    }
+     .fab-button-main:hover .innerfabflex .linki {
+        right: 1.5rem;
+    }
  }
  @media only screen and (max-width: 768px) and (min-width: 581px)  {
     .imagealignerdiv {
