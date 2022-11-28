@@ -530,19 +530,24 @@ footer p a {
     height: 3rem;
 }
 .innerfabflex a {
-    color: #009b72 !important;
+    color: #FCFCF6;
 }
 .innerfabflex a.dark {
-    color: #EDF67D !important;
+    color: #EEEEEE !important;
+}
+.innerfabflex a.dark:hover {
+    background: #ececec;
 }
 
 .inner-fab {
-    background: rgba(217, 217, 217, 0.1);
-    backdrop-filter: blur(2.8px);
+    background: #009B72;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 10000px;
     font-size: 12px;
-    border: 2px solid #009b72;
+
+}
+.inner-fab:hover {
+    background: #006147;
 }
 
 .inner-fab.dark {
@@ -564,7 +569,7 @@ footer p a {
     width: fit-content;
     aspect-ratio: 1/1;
     background: #009b72;
-    border-radius: 50%;
+    border-radius: 1000px;
     text-align: center;
     color: #FCFCF6;
 }
@@ -572,6 +577,7 @@ footer p a {
     background: #EDF67D;
     color: #222831;
 }
+
 .git-inner p {
     margin: 0;
     font-weight: 500;
@@ -672,6 +678,10 @@ footer p a {
     font-size: 12px;
     color: #F5FDC6;
 }
+.svgdiv:hover {
+    background: #44474f;
+    color: #f6ffbc;
+}
 .svgdiv.dark {
     background: #EEEEEE;
     color: #222831;
@@ -740,14 +750,21 @@ body.dark {
 .switch {
     display: none;
 }
-
+.underdiv {
+    height: 100%;
+    border-bottom: 4px solid #009b72;
+}
+.underdiv-nil:hover {
+    border-bottom: 4px solid #009b72;
+    transition: .1s ease-in-out;
+}
 
 @media only screen and (max-width: 768px) and (min-width: 0px) { 
     .main-loho-h {
         font-size: 2rem;
     }
     .link-col-h {
-        font-size: .8em;
+        font-size: .9rem;
         padding: 0 !important;
         align-items: flex-end;
         font-weight: 400;
@@ -1061,6 +1078,12 @@ body.dark {
 .tab-list  li.active  h3{
     font-size: 1rem;
 }
+.underdiv {
+    border-bottom: 2px solid #009b72;
+}
+.underdiv-nil:hover {
+    border-bottom: 2px solid #009b72;
+}
 
  }
 
@@ -1127,6 +1150,12 @@ body.dark {
     }
     .secondparent {
         width: 60%;
+    }
+    .underdiv {
+        border-bottom: 2px solid #009b72;
+    }
+    .underdiv-nil:hover {
+        border-bottom: 2px solid #009b72;
     }
  }
  
@@ -1273,6 +1302,13 @@ body.dark {
     .footer-mail-p {
         margin:0 0 1rem 0 !important; 
     }
+    .underdiv {
+        border-bottom: 2px solid #009b72;
+    }
+    .underdiv-nil:hover {
+        border-bottom: 2px solid #009b72;
+    }
+}
 
  @media only screen and (max-width: 1300px) and (min-width: 990px)  {
     .dp-image, .blue-circle {
@@ -1324,9 +1360,15 @@ body.dark {
     .skilltray-inner {
         width: 100%;
     }
+    .underdiv {
+        border-bottom: 3px solid #009b72;
+    }
+    .underdiv-nil:hover {
+        border-bottom: 3px solid #009b72;
+    }
  }
 
- }
+ 
 
 
 
