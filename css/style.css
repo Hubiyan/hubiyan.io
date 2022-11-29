@@ -542,8 +542,17 @@ body.dark .innerfabflex a:hover {
     font-size: 12px;
 
 }
+body.dark .inner-fab {
+    background: #EDF67D;
+}
+body.dark .inner-fab i {
+    color: #44474f;
+}
 .inner-fab:hover {
     background: #006147;
+}
+body.dark .inner-fab a:hover, body.dark .inner-fab:hover {
+    background: #c0c761;
 }
 
 .inner-fab.dark {
