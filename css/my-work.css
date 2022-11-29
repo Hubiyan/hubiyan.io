@@ -40,8 +40,8 @@
         font-weight: 500;
       color: #009B72;
     }
-    .tab-list > li:hover > h3.dark,
-    .tab-list > li.active > h3.dark {
+    body.dark .tab-list > li:hover > h3,
+    body.dark .tab-list > li.active > h3 {
       color: #EDF67D;
     }
     .tab-list > li > h3 {
