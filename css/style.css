@@ -141,7 +141,7 @@ body.dark .h-navbar a {
     border-radius: 50%;
     z-index: -1;
 }
-.blue-circle.dark {
+body.dark .blue-circle {
     background: #5E7CE2;
 }
 
@@ -1320,6 +1320,10 @@ body.dark .circles li {
      .fab-button-main:hover .innerfabflex .linki {
         right: 1.5rem;
     }
+
+    .link-col-h {
+        width: 50%;
+    }
  }
  @media only screen and (max-width: 768px) and (min-width: 581px)  {
     .imagealignerdiv {
@@ -1542,6 +1546,9 @@ body.dark .circles li {
     }
     .underdiv-nil:hover {
         border-bottom: 3px solid #009b72;
+    }
+    .link-col-h {
+        width: 40%;
     }
  }
 
