@@ -67,6 +67,10 @@ body.dark .main-heading-h{
     transition: 0.4s;
   }
 
+  body.dark .slider:before {
+    background-color: #393E46;
+  }
+
   .slider:before {
     position: absolute;
     content: "";
@@ -1173,10 +1177,9 @@ body.dark .circles li {
         height: 24px;
       }
    .slider:before {
-    height: 20px;
-    width: 20px;
-    top: 8.4%;
-    right: 8%;
+    height: 18.5px;
+    width: 19px;
+    top: 11.5%;
    }   
    input:checked + .slider:before {
     -webkit-transform: translateX(14px);
