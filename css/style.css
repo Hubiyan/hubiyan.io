@@ -490,6 +490,7 @@ footer {
     background:#F5FDC6 ;
     padding: 20px ; 
     height: 18rem;
+    position: relative;
 }
 body.dark footer {
     background: #222831;
@@ -887,6 +888,14 @@ body.dark .circles li {
     animation-duration: 11s;
 }
 
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
 
 
 @keyframes animate {
