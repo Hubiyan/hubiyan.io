@@ -771,6 +771,12 @@ body.dark .underdiv-nil:hover {
     border-bottom: 4px solid #EDF67D;
 }
 
+video {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 9/16;
+}
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 
