@@ -1078,11 +1078,15 @@ body.dark .circles li {
     .outerrow {
         padding-left: 1rem !important;
     }
-    .slidecomponent, .slidecomponent-b {
+
+    .slidecomponent, .slidecomponent-b,.slidecomponent-vid {
         height: 20rem;
         width: 20rem;
         margin-left: .1rem !important;
-        border-radius: 10px;
+        border-radius: 8px;
+    }
+    .slidecomponent-vid {
+        height: fit-content;
     }
     .viewbtn {
         font-size: .8rem;
