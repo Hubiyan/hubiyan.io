@@ -1330,9 +1330,9 @@ body.dark .circles li {
         justify-content: center !important;
     }
     .svgdiv-first {
-        width: 2rem;
-        height: 2rem;
-        font-size: .5rem ;
+        width: 3rem;
+        height: 3rem;
+        font-size: .8rem ;
     }
     .content-heading {
         padding-bottom: 0rem !important;
