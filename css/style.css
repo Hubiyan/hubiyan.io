@@ -820,7 +820,17 @@ video {
     width: 5rem;
     /* object-fit: contain; */
     aspect-ratio: 1/1;
+    border-radius: 10px;
 }
+.myimages-work:hover {
+    box-shadow: 0px 0px 30px rgb(32, 151, 50);
+    transition: .3s ease-in-out;
+}
+body.dark .myimages-work:hover {
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
+    transition: .3s ease-in-out;
+}
+
 
 .color-tray {
     background: #009b7271;
