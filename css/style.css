@@ -858,13 +858,12 @@ body.dark .color-tray {
     padding: 0 20px;
     width: 100%;
     text-align: center;
- 
-    
 }
 
 canvas{
     height:100vh;
     background-color:transparent;
+    color: #EEEEEE;
 }
 
 
