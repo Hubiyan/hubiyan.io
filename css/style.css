@@ -959,7 +959,7 @@ body.dark .circles li {
     animation-duration: 11s;
 }
 
-  @keyframes move-forever {
+  /* @keyframes move-forever {
     0% {
      transform: translate3d(-90px,0,0);
     }
@@ -983,7 +983,38 @@ body.dark .circles li {
         border-radius: 50%;
     }
 
+} */
+#particles {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;  
+    opacity: 30%;
 }
+#webcoderskull{
+    position: relative;
+    left: 0;
+    top:0;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+
+canvas{
+    height:100vh;
+    background-color:transparent;
+}
+#webcoderskull h1{
+  letter-spacing: 5px;
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 
 @media only screen and (max-width: 768px) and (min-width: 0px) { 
     .main-loho-h {
