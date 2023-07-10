@@ -14,6 +14,7 @@
 }
 .workrow {
     padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
 @media all {
@@ -122,6 +123,7 @@
         border-radius: 10px; }
         .workrow {
             padding-left: 0rem !important;
+            padding-right: 1rem !important;
         }
 
         .workrow .col-12 {
@@ -129,6 +131,7 @@
             display: flex;
             justify-content: center;
         }
+
          }
          @media only screen and (max-width: 990px) and (min-width: 768px)  { 
             .workrow .col-md-5 {
@@ -138,13 +141,16 @@
               padding: 0 !important;
               margin: 0;
               width: 100%;
-            } }
+            } 
+
+        }
 
   @media only screen and (max-width: 990px) and (min-width: 726px) {       .slidecomponent {
     height: 19rem;
     width: 19rem;
     margin-left: .1rem !important;
     border-radius: 10px; }
+
    }      
  @media only screen and (max-width: 1300px) and (min-width: 991px) {
     .workrow .col-md-5 {

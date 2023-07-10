@@ -377,12 +377,23 @@ body.dark .mail-me {
 }
 
 .slidecomponent, .slidecomponent-b {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 10px;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 20px;
     filter: drop-shadow(6px 6px 6px rgba(50, 50, 50, 0.132));
     cursor: grab;
 }
+
+.slidecomponent-c {
+    min-width: 100%;
+}
+.myimages-d {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
 
 .slidecomponent-vid {
     width: 35rem;
@@ -396,7 +407,7 @@ body.dark .mail-me {
     height: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .outerrow {
@@ -674,11 +685,14 @@ body.dark .inner-fab {
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
-.abt-me-txt h4 {
-    font-size: 1.3rem;
-    font-weight: 300;
-    line-height: 2rem;
+.abt-me-txt p {
+    font-size: 1.1rem;
+    font-weight: 300 !important;
+    line-height: 1.5rem;
     margin-bottom: 1.2rem;
+}
+.boldtext {
+    font-weight: 400 !important;
 }
 .abt-me-txt a {
     text-decoration: underline;
@@ -1099,7 +1113,7 @@ canvas{
         font-size: 1rem;
         padding-left: 1rem !important;
     }
-    .about-me-row h4 {
+    .about-me-row p {
         font-size: .9rem;
         line-height: 1.6rem;
         padding-top: .5rem !important;
@@ -1127,7 +1141,7 @@ canvas{
     .abt-me-head {
         margin-bottom: .2rem;
     }
-    .abt-me-txt h4 {
+    .abt-me-txt p {
         margin-bottom: .5rem;
     }
     .final-head {
@@ -1135,7 +1149,7 @@ canvas{
         margin-left: 1rem !important;
         margin-right: 0rem !important;
     }
-    .final-head .abt-me-txt h4 {
+    .final-head .abt-me-txt p {
         line-height: 1rem;
     }
     .switch {
@@ -1233,6 +1247,10 @@ canvas{
     .i-have-work {
         padding: 10px !important;
         margin-top: 1rem !important;
+    }
+
+    .myimages {
+        border-radius: 16px;
     }
 
  }
@@ -1361,6 +1379,9 @@ canvas{
     }
     .content-heading {
         padding-bottom: 1rem !important;
+    }
+    .myimages {
+        border-radius: 16px;
     }
 
  }
@@ -1571,6 +1592,10 @@ canvas{
         width: 100% !important;
         padding: 1rem !important;
     }
+      .myimages {
+        border-radius: 20px;
+    }
+
 }
 
  @media only screen and (max-width: 1300px) and (min-width: 990px)  {
@@ -1646,6 +1671,7 @@ canvas{
         height: 3rem;
         font-size: .8rem;
     }
+
  }
 
  @media only screen and (max-width: 476px) and (min-width: 0px) { 
