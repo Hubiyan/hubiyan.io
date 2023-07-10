@@ -774,12 +774,6 @@ body.dark {
     background: transparent;
     padding: 0;
 }
-.modal-body .slidecomponent {
-    width: 35rem;
-    height: 35rem;
-    border-radius: 8px;
-    box-shadow: 4px 8px 8px #30303056;
-}
 
 .modal-dialog {
     max-width: fit-content;
