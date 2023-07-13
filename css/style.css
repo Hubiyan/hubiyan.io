@@ -518,7 +518,7 @@ body.dark .skilltray{
     font-weight: 500;
     font-size: 32px;
     line-height: 72px;
-    color: #009B72;
+    color: #171717;
 }
 body.dark.interestincol h1, body.dark .interestincol p{
     color: #EEEEEE;
@@ -526,7 +526,7 @@ body.dark.interestincol h1, body.dark .interestincol p{
 .interestincol p {
     font-weight: 400;
     font-size: 24px;
-    color: #009B72;
+    color: #171717;
 }
 
 .interestincol p a:hover {
@@ -872,6 +872,17 @@ canvas{
     height:100vh;
     background-color:transparent;
     color: #EEEEEE;
+}
+
+.link-text {
+    font-weight:600 ;
+    text-decoration: underline;
+    color: #009B72;
+}
+body.dark .link-text  {
+    font-weight:600 ;
+    text-decoration: underline;
+    color: #EDF67D;
 }
 
 
