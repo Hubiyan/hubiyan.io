@@ -686,9 +686,9 @@ body.dark .inner-fab {
     margin-bottom: 1rem;
 }
 .abt-me-txt p {
-    font-size: 1.1rem;
-    font-weight: 300 !important;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400 !important;
+    line-height: 150%;
     margin-bottom: 1.2rem;
 }
 .boldtext {
@@ -749,7 +749,7 @@ body.dark .svgdiv {
 /* darkmode */
 body.dark {
     background: #393E46;
-    color : #EEEEEE;
+    color : #c9c9c9;
   }
   body.dark .h-navbar {
     background: #393E46;
@@ -1121,8 +1121,8 @@ body.dark .link-text  {
     .about-me-row p {
         font-size: .9rem;
         line-height: 1.6rem;
-        padding-top: .5rem !important;
-        padding-left: 1rem !important;
+        /* padding-top: .5rem !important;
+        padding-left: 1rem !important; */
         letter-spacing: .1px;
     }
     .secondd-row {
@@ -1256,6 +1256,10 @@ body.dark .link-text  {
 
     .myimages {
         border-radius: 16px;
+    }
+    .farst-raw, .secondd-row, .about-me-row, .final-head {
+        min-width: 100%;
+        padding: 0 20px 0 20px !important;
     }
 
  }
