@@ -42,7 +42,7 @@
 
 .w-embed-youtubevideo {
   width: 100%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-image: url('https://www.loom.com/share/52e98898ccf64277a8db25a5f0fe3654?sid=79b9afbc-e632-457d-9517-3e32c602d98c');
   background-position: 50%;
   background-size: cover;
   padding-bottom: 0;
@@ -1704,6 +1704,10 @@
 
 .text-block-10 {
   color: var(--light-grey);
+}
+
+.pointer-invisile {
+  cursor: none;
 }
 
 @media screen and (max-width: 991px) {
