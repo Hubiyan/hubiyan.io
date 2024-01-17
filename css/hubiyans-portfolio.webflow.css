@@ -2135,7 +2135,7 @@
   }
 
   .im-a-ux-product-designer-i-create-solutions-for-digital-experience-enhancements-0, .im-a-ux-product-designer-i-create-solutions-for-digital-experience-enhancements-1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .primary-button {
@@ -2164,6 +2164,7 @@
   .button-wrapper {
     width: 100%;
     flex-direction: row;
+    display: none;
   }
 
   .my-image {
