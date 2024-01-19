@@ -1070,9 +1070,10 @@
 }
 
 .head-text {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 120%;
+  width: 90%;
 }
 
 .head-wrapper {
