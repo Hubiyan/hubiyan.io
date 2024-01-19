@@ -1677,7 +1677,6 @@
 }
 
 .contact-inner-button.button-contact.button-mobile-contact {
-  width: 60%;
   min-width: 70%;
 }
 
@@ -2394,6 +2393,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  .contact-context {
+    width: 100%;
+
+  }
   .navbar-logo-left {
     max-height: 120px;
   }
@@ -2970,9 +2973,8 @@
   }
 
   .contact-inner-button.button-contact.button-mobile-contact {
-    width: auto;
-    min-width: auto;
-    padding: 12px 32px;
+    width: 100%;
+    padding: 8px 32px;
   }
 
   .chip-spline-touch.mobile-instruction {
