@@ -3096,6 +3096,9 @@
     padding: 0;
   }
 
+  .head-ntext-cs-wrapper {
+    gap: .5rem !important; }
+
   .head-nbutton {
     padding: 1.25rem 1.25rem 0 1.25rem ;
     gap: 1rem !important;
@@ -3110,7 +3113,7 @@
 
   .cs-inner-wrapper {
     flex-direction: column-reverse;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .cs-button {
