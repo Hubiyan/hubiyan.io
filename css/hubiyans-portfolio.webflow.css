@@ -291,7 +291,7 @@
   max-width: 100vw;
   margin-top: 80px;
   padding-bottom: 32px;
-  padding: 0 20px;
+  padding: 0 140px;
 }
 
 .main-section.hero-section {
@@ -994,7 +994,7 @@
 .text-block-2 {
   color: var(--system-white);
   width: 100%;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 120%;
 }
 
@@ -1726,6 +1726,81 @@
 .navbar-brand {
   cursor: none;
 }
+
+.cs-inner-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.case-study-container {
+  background-color: #F6F6F6;
+  padding: 1.875rem 3.75rem 0 0;
+  border-radius: 1.375rem;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.case-study-mockup {
+  max-width: 40%;
+}
+
+.case-study-head {
+  font-size: 2.625rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.case-study-tag {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  color: #515151;
+}
+
+.notion-ico {
+  width: 1.25rem;
+}
+
+.head-nbutton {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem !important;
+}
+.head-ntext-cs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem !important; }
+
+  
+
+
+.cs-button {
+  border-radius: 1000px;
+  background: #4166DE;
+  display: flex;
+  color: var(--system-white);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .875rem;
+  padding: 1rem 2rem;
+  cursor: none;
+  width: fit-content;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+@media screen and (min-device-width: 990px) and (max-device-width: 1080px) {
+  .main-section {
+    padding: 0 20px;
+  }
+}
+
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -3016,6 +3091,36 @@
     grid-template-rows: auto auto;
     grid-template-columns: 2fr 1.75fr;
   }
+
+  .case-study-container {
+    padding: 0;
+  }
+
+  .head-nbutton {
+    padding: 1.25rem 1.25rem 0 1.25rem ;
+    gap: 1rem !important;
+  }
+
+  .case-study-head {
+    font-size: 2rem;
+  }
+  .case-study-tag {
+    font-size: 1rem;
+  }
+
+  .cs-inner-wrapper {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .cs-button {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .case-study-mockup {
+    min-width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3036,6 +3141,7 @@
   #w-node-_75532a78-eba7-97c2-a5e2-bd773c9dab7a-46e59fd2 {
     grid-row: span 26 / span 26;
   }
+
 }
 
 
@@ -3094,4 +3200,8 @@
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+}
+
+.text-dec-none {
+  text-decoration: none !important;
 }
