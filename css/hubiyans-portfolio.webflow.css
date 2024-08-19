@@ -281,8 +281,8 @@
 
 .scroll-indicator {
   width: 100vw;
-  height: 4px;
-  background-color: var(--brand-blue);
+  height: 3px !important;
+  background-color: var(--light-grey);
   border-radius: 10px;
 }
 
