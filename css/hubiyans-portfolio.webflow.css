@@ -2506,8 +2506,8 @@
   }
 
   .navbar-brand {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .nav-menu-two {
@@ -2908,7 +2908,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .vectors-wrapper-2 {
